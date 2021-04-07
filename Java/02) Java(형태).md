@@ -54,3 +54,41 @@ String형
 원시자료형은 아니지만 원시자려형 취급이 가능함
 
 문자열("")데이터의 기본자료형
+[코드]
+```java
+package basic;
+
+public class Test02 {
+	public static void main(String[] args) {
+
+		System.out.println(10000000000L);// L ; long형으로 처리한다
+
+		System.out.println((char) 65);// A
+		System.out.println((int) 'B');// 66
+		System.out.println((int) '가');// 44032
+
+		System.out.println(10 >= 20); // false
+
+		System.out.println(1); // 전체에 + 0을 하면된다
+		System.out.println(1.0); // 소수
+		System.out.println('1'); // 아스키코드값
+		System.out.println("1"); // 문자열값
+		// 모두 같은 1일까?
+	}
+}
+```
+
+출력
+```java
+10000000000
+A
+66
+44032
+false
+1
+1.0
+1
+1
+```
+이런식으로 출력이 됩니다
+
