@@ -39,3 +39,39 @@
 최초 저장; 초기화
 
 변경; 접근
+
+```java
+package basic;
+
+public class Test01 {
+
+	// main = ctrl +스페이스
+	public static void main(String[] args) {
+
+		int r; // int형 변수 r 선언(변수명은 내 마음대로)
+		double pi = 3.14;// double형 변수 pi선언 및 초기화
+		r = 5; // r 변수 초기화(5저장)
+		double area = r * r * pi; // double 변수 area선언 및 초기와(78.5저장)
+		// r과 pi 호출하여 값 보기
+		System.out.println("반지름: " + r);// 변수 호출(값보기)
+		System.out.println("원의 넓이: " + area);
+
+		r = 10;// r의 값을 10으로 변경(r변수에 접근)
+		area = r * r * pi; // 이렇게 공식을 다시 써줘야 area값이 변한다
+		System.out.println("반지름: " + r);
+		System.out.println("원의 넓이: " + area);
+
+	}
+}
+```
+
+출력
+
+```java
+반지름: 5
+원의 넓이: 78.5
+반지름: 10
+원의 넓이: 314.0
+```
+
+반지름의 길이가 달라지면서 원의 넓이가 달라진다는 걸 볼 수 있다.
