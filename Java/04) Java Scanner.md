@@ -7,6 +7,7 @@ Scanner라는 것은 java.util 패키지에 포함된 클래스이다.
 
 
 '초'를 사용자에게 입력받고 이를 x 분 x 초를 계산해주는 것을 만들어 주겠습니다.
+
 ```java
 package basic;
 
