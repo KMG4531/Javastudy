@@ -23,11 +23,11 @@ public class Test01 {
 		int sec = sc.nextInt();  // 정수 1개를 입력받고, 이를 sec에 저장
 		System.out.println("입력 값;" + sec + "초");
 		System.out.println(sec / 60 + "분" + sec % 60 + "초");
-
 	}
 }
 
 ```
+
 출력
 
 ```java
