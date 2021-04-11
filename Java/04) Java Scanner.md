@@ -33,3 +33,40 @@ public class Test01 {
 ```java
 초;
 ```
+
+라고 뜹니다 여기에다 193초를 입력해 주겠습니다.
+ 
+ ```java
+초;
+193
+입력 값;193초
+3분13초
+```
+
+
+이런 식으로 X 분과 X 초가 나옵니다.
+
+
+이번에는 나이를 입력받고 중학생인지 아닌지를 판별해 주는 것을 만들어보겠습니다.
+
+```java
+package basic;
+
+import java.util.Scanner;
+
+public class Test02 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int age;
+
+		System.out.println("나이를 입력하세요");
+		age = sc.nextInt(); // 정수 1개 입력 받고, 이를 age에 저장
+
+		System.out.println("당신의 나이;" + age);
+		System.out.println("중학생?;" + (14 <= age && age <= 16));
+	}
+}
+
+```
