@@ -56,5 +56,4 @@ public class Test01 {
 	    sc.close(); // 심부름꾼 삭제 (생략 가능) 
 	}
 }
-
 ```
