@@ -18,8 +18,8 @@ Scanner란?
 
 밑에 예시를 봅시다
 
-
 ```java
+
 package basic;
 import java.util.Scanner;  // Scanner는 이 문장이 꼭 필요함! 
 
