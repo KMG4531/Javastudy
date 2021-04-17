@@ -28,3 +28,25 @@ int num2 = (int)3.99999; // 3.99999 -> 3으로 강제 형 변환
 ==> 데이터 손실 우려가 없을 때 해줌
 
 실제로 해봅시다
+```java
+
+package basic;
+
+public class Test01 {
+	public static void main(String[] args) {
+
+		double num1 = 3; 
+		// int num2 = 3.0;  // 자동형변환 안해줌
+		int num2 = (int)3.0; 
+		
+		char ch = 'A'; 
+		ch = (char)(ch + 32); // (char) 없으면 에러남
+		
+		System.out.println(ch);
+		
+		System.out.println( (int) 3.99999999999 );
+		
+	}
+}
+
+```
