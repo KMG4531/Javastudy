@@ -20,4 +20,4 @@ else if로 넘어간다. else if 도 아니라면 else로 실행이 됩니다.
 
 밑에 프로그램에서도 저번에 배웠던 Scanner를 쓸 겁니다.
 
-Scanner를 모르신다면 Scanner 04, 05를 참고하세요
+Scanner를 모르신다면 Scanner 04, 05를 참고하세요.
