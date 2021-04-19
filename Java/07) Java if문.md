@@ -21,3 +21,43 @@ else if로 넘어간다. else if 도 아니라면 else로 실행이 됩니다.
 밑에 프로그램에서도 저번에 배웠던 Scanner를 쓸 겁니다.
 
 Scanner를 모르신다면 Scanner 04, 05를 참고하세요.
+
+```java
+package basic;
+
+import java.util.Scanner;
+
+
+public class Test01 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); 
+		int age;
+		System.out.print("나이:");
+		age = sc.nextInt();
+		
+		if (age >= 20) {
+			System.out.println("성인입니다.");
+		} 
+		else { // 그렇지 않으면.. (위에 if가 짝꿍)
+			// 위의 조건식이 false면 무조건 이걸 실행해
+			System.out.println("미성년자입니다.");
+		}
+		
+		if (age <= 7) {
+			System.out.println("미취학 아동");
+		} 
+		else if(age <= 13) {
+			System.out.println("초등학생");
+		}
+		else if(age <= 16) {
+			System.out.println("중학생");
+		}
+		else if(age <= 19) {
+			System.out.println("고등학생");
+		} 
+		else {
+			System.out.println("대학생 혹은 일반 성인");
+		}
+	}
+}
+```
