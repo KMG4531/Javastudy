@@ -22,6 +22,7 @@ else if로 넘어간다. else if 도 아니라면 else로 실행이 됩니다.
 
 Scanner를 모르신다면 Scanner 04, 05를 참고하세요.
 
+
 ```java
 package basic;
 
