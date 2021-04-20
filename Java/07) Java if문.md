@@ -62,3 +62,10 @@ public class Test01 {
 	}
 }
 ```
+위에 보시면 성인과 미성년자를 구분할 수 있는 if와 else가 있습니다. if와 else 밖에 없는 이유는 구분해 줄게 2개뿐이니까 if와 else밖에 없겠죠.
+
+그 밑에 있는 명령문은 if, else if, else가 쓰입니다.
+
+나이별로 구분해 주기 위해서 if, else if, else가 쓰입니다.
+
+실행을 시켜주면
