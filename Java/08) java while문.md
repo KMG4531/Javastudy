@@ -15,3 +15,22 @@ while( 조건식 ) {
 조건식 검사 --> true면 --> { } 실행 --> 
 
 ... --> false면 --> while문 종료
+
+
+
+### [while문을 이용한 소스코드]
+
+```java
+package basic;
+public class Test01 {
+	public static void main(String[] args) {
+		// 1 ~ 10 출력
+		int num = 1;
+		while(num <= 10) {
+			System.out.println(num);
+			++num; // num++; 해도 됨
+		}
+		System.out.println("마지막 num의 값 : " + num);
+	}
+}
+```
