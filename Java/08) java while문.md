@@ -17,7 +17,6 @@ while( 조건식 ) {
 ... --> false면 --> while문 종료
 
 
-
 ### [while문을 이용한 소스코드]
 
 ```java
