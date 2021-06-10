@@ -17,7 +17,7 @@ Scanner란?
 한 단어만 한 줄 (띄어쓰기 포함 가능)
 
 밑에 예시를 봅시다.
-
+ 
 ```java
 
 package basic;
