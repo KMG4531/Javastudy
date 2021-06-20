@@ -8,7 +8,7 @@
  
 * byte형 (1byte)
 
-* short형(2byte)
+* short형(2byte) 
 
 * int형(4byte); 정수데이터(정수 상수)의 기본자료형 
 
